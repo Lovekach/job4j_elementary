@@ -9,8 +9,8 @@ public class Point {
         double y = y2 - y1;
         double second = Math.pow(y, 2);
         double tree = first + second;
-        double result =  Math.sqrt(tree);
-        return result;
+        double result1 =  Math.sqrt(tree);
+        return result1;
 
 
     }
@@ -19,6 +19,9 @@ public class Point {
     public static void main(String[] args) {
         double result = Point.distance(0, 0, 2, 0);
         System.out.println("result (0, 0) to (2, 0) " + result);
+        double result1 = Point.distance(3, 6, 6,12);
+        System.out.println("result (3, 6) to (12, 6) " + result1);
+
 
 
     }
