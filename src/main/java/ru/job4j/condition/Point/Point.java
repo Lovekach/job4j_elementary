@@ -4,16 +4,17 @@ public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {
         double rsl = -1;
         return rsl;
-    }
-    public static double distance; {
-        double first = 2 - 0;
-        double second = 0 - 0;
-        double three = Math.pow(first, 2);
-        double four = Math.pow(second, 2);
-        double five = three + four;
-        double result = Math.sqrt(five);
+        double x = x2 - x1;
+        double first = Math.pow(x, 2);
+        double y = y2 - y1;
+        double second = Math.pow(y, 2);
+        double tree = first + second;
+        double result =  Math.sqrt(tree);
+        return result;
+
 
     }
+
 
     public static void main(String[] args) {
         double result = Point.distance(0, 0, 2, 0);
