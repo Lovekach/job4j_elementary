@@ -6,8 +6,7 @@ public class TrgArea {
         double first = p - a;
         double second = p - b;
         double third = p - c;
-        double four = Math.sqrt(p * first * second * third);
-        return four;
+        return Math.sqrt(p * first * second * third);
     }
 
     public static void main(String[] args) {
