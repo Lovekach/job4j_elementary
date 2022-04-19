@@ -10,7 +10,6 @@ public class Point {
         double result1 =  Math.sqrt(tree);
         return result1;
 
-
     }
 
 
