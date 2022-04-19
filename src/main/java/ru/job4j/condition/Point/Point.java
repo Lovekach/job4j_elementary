@@ -7,8 +7,8 @@ public class Point {
         double y = y2 - y1;
         double second = Math.pow(y, 2);
         double tree = first + second;
-        double result1 =  Math.sqrt(tree);
-        return result1;
+        double result =  Math.sqrt(tree);
+        return result;
 
     }
 
