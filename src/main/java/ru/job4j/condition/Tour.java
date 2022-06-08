@@ -6,7 +6,7 @@ public class Tour {
         if (passport) {
             System.out.println("Tours abroad.");
         } else {
-            System.out.println("Tours in Russia");
+            System.out.println("Tours in Russia.");
         }
     }
 
