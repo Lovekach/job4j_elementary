@@ -1,15 +1,18 @@
 package ru.job4j.condition;
 
 public class DummyBot {
-    public static String answer (String question) {
-        String rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
-        if ("Привет, Бот.".equals(question)) {
-            rsl = "Привет умник.";
-        } else if ("Пока".equals(question)) {
-           rsl = "До скорой встречи";
-        }else if ("Сколько будет 2 + 2?".equals(question)) {
+    public static String answer(String question) {
+        String rsl;
+        if ("Привет Бот.".equals(question)) {
+            rsl = "Привет, умник.";
+        } else if ("Пока.".equals(question)) {
+            rsl = "До скорой встречи.";
+        } else if ("Как дела?".equals(question)) {
+            rsl = "Хорошо";
+        } else {
             rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
         }
+
         return rsl;
     }
 
@@ -19,6 +22,8 @@ public class DummyBot {
         rsl = DummyBot.answer("Пока.");
         System.out.println(rsl);
         rsl = DummyBot.answer("Сколько будет 2 + 2?");
+        System.out.println(rsl);
+        rsl = DummyBot.answer("Как дела?");
         System.out.println(rsl);
     }
 }
