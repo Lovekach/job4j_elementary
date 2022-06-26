@@ -8,5 +8,11 @@ public class MathAbsUsage {
         System.out.println("Разность чисел равна: " + rsl);
         int abs = Math.abs(rsl);
         System.out.println("Абсолютное значение разности чисел равно: " + abs);
+        int m = 12;
+        int e = 10;
+        int result = e - m;
+        System.out.println("Разность чисел равна: " + result);
+        int fbi = Math.abs(result);
+        System.out.println("Абсолютное значение разности чисел равно: " + fbi);
     }
 }
